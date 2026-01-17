@@ -1,0 +1,50 @@
+/*
+  Este é o arquivo de estilos (CSS) do seu site.
+  Ele é usado para controlar a aparência dos elementos HTML.
+*/
+
+/* Estilo para o corpo da página.
+  As cores de fundo e texto serão alteradas pelo JavaScript,
+  mas essas são as cores padrão.
+*/
+body {
+    /* Define a fonte Inter para todo o corpo do documento */
+    font-family: 'Inter', sans-serif;
+    /* Usando classes do Tailwind para o fundo e a cor do texto */
+    background-color: #111827; /* bg-gray-900 */
+    color: #f3f4f6; /* text-gray-100 */
+}
+
+/*
+  Quando a classe "dark-mode" for adicionada ao <body> pelo JavaScript,
+  essas cores serão aplicadas.
+*/
+body.dark-mode {
+  background-color: #f3f4f6; /* bg-gray-100 */
+  color: #111827; /* text-gray-900 */
+}
+
+/* Estilos para elementos dentro do modo escuro.
+  Ajusta a cor de fundo dos elementos principais para contrastar
+  com o fundo claro do modo escuro.
+*/
+body.dark-mode .bg-gray-800 {
+  background-color: #d1d5db; /* bg-gray-300 */
+}
+
+body.dark-mode .bg-gray-700 {
+  background-color: #e5e7eb; /* bg-gray-200 */
+}
+
+body.dark-mode .text-gray-300 {
+  color: #4b5563; /* text-gray-600 */
+}
+
+body.dark-mode .text-white {
+  color: #1f2937; /* text-gray-800 */
+}
+
+body.dark-mode .border-gray-600 {
+  border-color: #6b7280; /* border-gray-500 */
+}
+

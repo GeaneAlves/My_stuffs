@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geane Alves | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col min-h-screen transition-colors duration-500 bg-gray-900 text-gray-100">
+    
+    <header class="bg-gray-800 p-8 shadow-md border-b border-gray-700">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-teal-400">Geane Alves</h1>
+            
+            <button id="theme-toggle" class="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-600 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+            </button>
+            
+            <nav class="space-x-4">
+                <a href="#sobre" class="text-gray-300 hover:text-teal-400 transition-colors">Sobre Mim</a>
+                <a href="#interesses" class="text-gray-300 hover:text-teal-400 transition-colors">Interesses</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4 md:p-8">
+        
+        <section id="sobre" class="bg-gray-800 p-6 md:p-10 rounded-xl shadow-lg mb-8 border border-gray-700">
+            <div class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-8">
+                <img src="img/rosto.jpg" alt="Foto de Geane Alves" class="rounded-full w-32 h-32 md:w-48 md:h-48 object-cover border-4 border-teal-500 shadow-xl">
+                
+                <div class="text-center md:text-left">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-2 text-white">Olá, eu sou a Geane</h2>
+                    <h3 class="text-teal-400 font-medium mb-4">Estudante de Análise de Sistemas & Tech Enthusiast</h3>
+                    <p class="text-gray-300 leading-relaxed max-w-2xl">
+                        Seja bem-vindo(a) ao meu jardim digital! <br><br>
+                        Com uma bagagem sólida como profissional da área de TI, continuo a dedicar meus estudos à Tecnolgia, também estudo Psicanálise. 
+                        Sou apaixonada por <strong>Python</strong>, <strong>JavaScript</strong>, entusiasta do mundo <strong>Linux</strong> e adoro criar soluções inteligentes.
+                        <br><br>
+                        Aqui compartilho um pouco das minhas paixões: desde meus códigos e laboratórios de redes até meus desenhos, minhas fotografias. 
+                        <p>Fotofrafia é uma arte da qual gosto muito também, especialmente fotografia de natureza e objetos.</p>
+                        livros favoritos e minhas experiências culinárias.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interesses" class="bg-gray-800 p-6 md:p-10 rounded-xl shadow-lg border border-gray-700">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-10 text-white">Meus Interesses e Projetos</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                
+                <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+                    <img src="img/rosa do deserto.jpg" alt="Minha Rosa do Deserto" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-teal-300">Natureza & Cultivo</h3>
+                        <p class="text-gray-300 text-sm">
+                            Assim como no código, a jardinagem exige paciência e dedicação. Aqui está minha Rosa do Deserto, gosto muito desta foto.
+                        </p>
+                    </div>
+
+                    <section class="bg-gray-800 p-6 md:p-10 rounded-xl shadow-lg border border-gray-700 mt-8">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-6 text-white">Minha Coleção</h2>
+
+    <div class="relative w-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-2xl">
+        
+        <div id="carousel-slides" class="flex transition-transform duration-500 ease-in-out">
+            
+            <div class="min-w-full">
+                <img src="img/Acerola.jpg" alt="Pé de Acerola" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Acerola</h3>
+                    <p class="text-gray-300">Pequena, vermelha e cheia de vitamina C. Uma delícia no preparo de suco cheinho de vitaminas e muito agradável ao paladar. O pé de acerola crese muito, é uma árvore bonita que produz muitos galhos, geralemte bem finos, porém é uma planta de baixa manutenção, ela não necessita receber muita água e requer minímos cuidados.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/Aglaonema.jpg" alt="Aglaonema" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Aglaonema</h3>
+                    <p class="text-gray-300">Também conhecida como Café-de-salão ou Chinese Evergreen. É uma planta ornamental popular, valorizada por suas folhas largas e estampadas.  A Aglaomena é uma planta típica de vaso, ela consegue sobressair dentro de casa tomando luz do sol e ela gosta de água algumas vezes por semana, ela tem um bom crescimento e sobressai fácil. Vale mencionar que ela a Aglaomena torna o ambiente bem mais agradável.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/Azaleia.jpg" alt="Azaleia" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Azaleia</h3>
+                    <p class="text-gray-300">Aqui há uma mistura de duas coisas que adoro, flor e fotografia, a flor de Azaleia foi encontrada caída embaixo da árvore, então a levei para a mesa de trabalho e a fotografei e entra mais uma paixão, o teclado do computador que me remete á tecnologia. Mesmo que a imagem esteja em modo blur, os números são parte da Sequência de Fibonacci.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/Balsamina.jpg" alt="Balsamina" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Balsamina</h3>
+                    <p class="text-gray-300">A Balsamina é uma flor muito delicada e muito linda também. Ela gosta bastante de água, aliás, ela cresce e prospera bem em lugares onde sempre há água. A Balsamina não economiza na hora de florecer, é como se ela gritasse: Olhe para mim, estou florindo muito e quero ser admirada!</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/Begonia.jpg" alt="Flor Begonia" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Begônia</h3>
+                    <p class="text-gray-300">A Begônia é bem delicada, até mesmo nas folhas, ele cresce bastante, chegando a se tornar uma árvore alta, é muito bonita ao ficar completamente florida.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/Cafe.jpg" alt="Grãos de Café" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Café</h3>
+                    <p class="text-gray-300">Do plantio à xícara: nada supera o aroma de café fresco. Os grãos são lindos para fotografia, especialmente pela manhã após armazenar gotículas de sereno noturno. No quintal da casa de minha mãe, são cultivados muitos pés de café, na época da colheita, ela colhe os grçaos maduros, coloca para secar e depois realiza todo o processo de limpeza, torra e moagem e coa um café deliciosa todas as manhças.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/CanaDaIndia.jpg" alt="CanaDaIndia" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Cana Da India</h3>
+                    <p class="text-gray-300">A flor Cana da Índia cresce bastante e tem uma folhagem bonita o ano inteiro, mas quando floresce, ela traz uma beleza notável. Geralemte floresce na época de chuva como fim/início de ano. É uma ótima planta para ter-se do lado de fora da casa.</p>
+                </div>
+            </div>
+        
+            <div class="min-w-full">
+                <img src="img/Figo.jpg" alt="Fruta Figo" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Figo</h3>
+                    <p class="text-gray-300">Uma fruta exótica e saborosa que, costumeiramente é usada para fazer doce em calda. A árvore do Figo cresce muito tanto para verticalmente como horizontamente, deve-se observar onde pode plantá-la. Possí uma golhagem com uma colocarção verde muito bonita.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/Ixora.jpg" alt="Ixora" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Ixora</h3>
+                    <p class="text-gray-300">A Ixora é uma planta originária do continente asiático. Possui flores em formato de estrela, que podem ser vermelhas, laranjas, rosas ou amarelas. Suas folhas são verde-escuras e brilhantes, ela adiciona um toque exuberante a jardins tropicais.</p>
+                </div>
+            </div>
+        
+            <div class="min-w-full">
+                <img src="img/Limao.jpg" alt="Fruta Limão" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Limão</h3>
+                    <p class="text-gray-300">Uma fruta que provê um suco delicioso, refrescante, saudável e bom para o estômago. Também usado para temperos e coquetéis.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/RosaBranca.jpg" alt="RosaBranca" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">RosaBranca</h3>
+                    <p class="text-gray-300">A Rosa Branca é uma magestade. Absolutamente linda e com um aroma delicioso, traz beleza e um ar de pureza onde quer que floresça, também costuma crescer muito, mas seu caule não costuma crescer muito verticalmente, ela pode "deitar" os galhos que contém espinhos, para os lados. Sua beleza, certamente, lembra a inocência e pureza.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/SedaBranca.jpg" alt="SedaBranca" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Flor de Seda Branca</h3>
+                    <p class="text-gray-300">Esta planta é da família do cacto de Natal, ou Schlumbergera truncata, conhecido por suas belas flores que geralmente florescem do meio ao final do ano.Ela é conhecida por Flor de Seda, esta é da variedade Branca, precisa de águas poucas vezes por semana, não é muito exigente com a terra e não pode pegar muito sol, ela sobressai bem dentro de casa apenas ficando exposta à luz. A beleza é delicadeza desta flor é incrível.</p>
+                </div>
+            </div>
+
+            <div class="min-w-full">
+                <img src="img/SedaRosa.jpg" alt="SedaRosa" class="w-full h-64 md:h-96 object-cover">
+                <div class="bg-gray-900 p-4 text-center">
+                    <h3 class="text-xl font-bold text-teal-400">Flor de Seda Cor de Rosa</h3>
+                    <p class="text-gray-300">Esta planta é da família do cacto de Natal, ou Schlumbergera truncata, conhecido por suas belas flores que geralmente florescem do meio ao final do ano.Ela é conhecida por Flor de Seda, esta é da variedade Cor de Rosa, precisa de águas poucas vezes por semana, não é muito exigente com a terra e não pode pegar muito sol, ela sobressai bem dentro de casa apenas ficando exposta à luz. A beleza é delicadeza desta flor é incrível, ela é tão perfeita que dá vontade de plastificar para ter o ano todo sua beleza.</p>
+                </div>
+            </div>
+
+        </div> <button id="prevBtn" class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-75 text-white p-3 rounded-r-lg focus:outline-none">
+            &#10094;
+        </button>
+        <button id="nextBtn" class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-75 text-white p-3 rounded-l-lg focus:outline-none">
+            &#10095;
+        </button>
+    </div>
+</section>
+                </div>
+
+                            <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/1a202c/00bfa5?text=Linux+%26+Python" alt="Terminal Linux" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-teal-300">Jornada Tech</h3>
+                        <p class="text-gray-300 text-sm">
+                            Explorando o ecossistema Linux e desenvolvendo scripts em Python. A automação e a linha de comando são meus novos superpoderes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+                    <img src="img/ThreeDaysGrace.jpg" alt="Tree Days Grace" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-teal-300">Arte & Cultura</h3>
+                        <p class="text-gray-300 text-sm">
+                            <p>Quando não estou estudando, eu assisto séries, filmes, também faço desenhos, gosto de ler um bom livro.</p>
+                            <p></p>Quando estou estudando eu gosto de ouvir música, eu tenho algumas playlist criadas pelo YouTube que começa com alguma música do Tree Days Grace.</p>
+                            <p></p>A banda que mais ouvi em 2024 e 2025.</p>
+                            <p></p>A língua sido minha segunda língua, eu uso o dia inteiro no trabalho e lazer.</p>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 text-center p-6 mt-8 border-t border-gray-700">
+        <p>&copy; 2026 Geane Alves. Desenvolvido com carinho e código.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
