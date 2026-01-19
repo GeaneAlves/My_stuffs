@@ -1,22 +1,18 @@
 # 🌎 Site Pessoal -- Geane Alves
 
-Este repositório contém o código fonte de meu site pessoal, onde aprensento informações sobre mim, minha trajetória profissional, projetos e afins.
-
+Este repositório contém o código fonte de meu site pessoal, onde aprensento informações sobre mim, minha trajetória profissional, habilidades técnicas, projetos desenvolvidos e formas de contato.
 
 ---
 
-
-## 🎯🎯 Objetivos do Site
+## 🎯 Objetivos do Site
 
 - Apresentação de perfil pessoal e profissional
 - Divulgação de projetos e conhecimentos
 - Servir como Portfólio Online
 
-
 ---
 
-
-## 🛠🔧🔨 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 - HTML
 - CSS3
@@ -24,9 +20,7 @@ Este repositório contém o código fonte de meu site pessoal, onde aprensento i
 - Git e GItHub
 - GitHub Pages
 
-
 ---
-
 
 ## 💾 Estrutura do Projeto
 
@@ -43,4 +37,11 @@ Este repositório contém o código fonte de meu site pessoal, onde aprensento i
 └── README.md
 
 
-Autora: Geane Alves
+## 👤 Autora
+**Geane Alves**
+- GitHub:
+- Linkedin:
+
+## 📄 Licença
+
+Este projeto é de uso pessoal e educacional.
