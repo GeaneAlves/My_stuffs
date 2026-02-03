@@ -73,3 +73,37 @@ prevBtn.addEventListener("click", () => {
 
 // Ajusta o carrossel se a pessoa redimensionar a janela
 window.addEventListener("resize", updateCarousel);
+
+
+// --- LÓGICA DO SEGUNDO CARROSSEL (FAVORITOS) ---
+
+const slidesContainerFav = document.getElementById("carousel-favoritos");
+const slidesFav = slidesContainerFav.children;
+const nextBtnFav = document.getElementById("nextBtnFav");
+const prevBtnFav = document.getElementById("prevBtnFav");
+
+let currentIndexFav = 0;
+
+function updateCarouselFav() {
+    const width = slidesFav[0].clientWidth;
+    slidesContainerFav.style.transform = `translateX(-${currentIndexFav * width}px)`;
+}
+
+nextBtnFav.addEventListener("click", () => {
+    currentIndexFav++;
+    if (currentIndexFav >= slidesFav.length) {
+        currentIndexFav = 0;
+    }
+    updateCarouselFav();
+});
+
+prevBtnFav.addEventListener("click", () => {
+    currentIndexFav--;
+    if (currentIndexFav < 0) {
+        currentIndexFav = slidesFav.length - 1;
+    }
+    updateCarouselFav();
+});
+
+// Atualiza o segundo carrossel se redimensionar a tela
+window.addEventListener("resize", updateCarouselFav);
