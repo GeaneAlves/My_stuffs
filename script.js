@@ -1,4 +1,4 @@
-// Este é o arquivo JavaScript (JS) do seu site.
+// Este é o arquivo JavaScript (JS) do meu site.
 // Ele é usado para adicionar funcionalidades e interatividade.
 
 // O código abaixo adiciona a funcionalidade de alternar entre modo claro e escuro.
@@ -6,7 +6,7 @@
 // 1. Encontre o botão de alternância no seu HTML pelo seu ID
 const themeToggle = document.getElementById('theme-toggle');
 
-// 2. Encontre o corpo da página para poder alterar as classes
+// 2. Encontrando o corpo da página para poder alterar as classes
 const body = document.body;
 
 // 3. Adicione um "ouvinte de eventos" ao botão
